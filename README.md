@@ -1,17 +1,14 @@
-https://www.facebook.com/photo/?fbid=10205326709564101&set=a.2004543090088
+![Web developer](https://www.facebook.com/photo/?fbid=10205326709564101&set=a.2004543090088)
 
-### Hi there 👋
+#, Arif Hassan
+### Web developer
+
+Love to develop. Always learning new languages and designs and execution is being done in a great way. Love to learn new methods. 
+
+Skills: JS/ PHP/ WORDPRESS/ HTML / CSS
+
+- 🔭 I’m currently learning on git and advanced javascript. 
 
 
-**aarifhsn/aarifhsn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
