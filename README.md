@@ -6,8 +6,8 @@
 
 Love to develop. Always learning new languages. Designs and execution is being done in a great way. Love to learn new methods, tectics etc.
 
-<title>Operating System</title>
-![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
+## Github Stats
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aarifhsn)](https://github.com/aarifhsn/github-readme-stats)
 
 
 Skills: JS/ PHP/ WORDPRESS/ HTML / CSS
