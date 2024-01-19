@@ -6,6 +6,8 @@
 
 Love to develop. Always learning new languages. Designs and execution is being done in a great way. Love to learn new methods, tectics etc.
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
 ## Github Stats
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=aarifhsn)](https://github.com/aarifhsn/github-readme-stats)
 
