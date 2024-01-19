@@ -9,7 +9,7 @@ Love to develop. Always learning new languages. Designs and execution is being d
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Github Stats
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aarifhsn&repo=github-readme-stats)](https://github.com/aarifhsn/github-readme-stats)
+![Arif's GitHub stats](https://github-readme-stats.vercel.app/api?username=aarifhsn&show_icons=true)
 
 
 Skills: JS/ PHP/ WORDPRESS/ HTML / CSS
