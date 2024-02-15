@@ -1,0 +1,590 @@
+/*
+Theme Name: symbol
+Description: symbol is a modern, user-friendly and stylish woocommerce cum blog theme. It has a list of customizable features allowing you to make different kind of changes in layout, style, colors and fonts. The theme is easy to use. It has fully responsive design layout.
+Author: Aarif hassan
+Author URI: http://devswave.com
+Text Domain: symbol
+License: GNU General Public License v3 or later
+License URI: license.txt
+Version: 1.0.3
+Tags: custom-menu, custom-background, featured-images, custom-colors, flexible-header, left-sidebar, threaded-comments, translation-ready, fluid-layout, responsive-layout
+
+*/
+
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+.slicknav_menu {
+    display: none
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+.fix {
+    overflow: hidden
+}
+.floatleft {
+    float: left
+}
+.floatright {
+    float: right
+}
+.main {
+    margin: 0 auto;
+    width: 960px;
+}
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right
+}
+.aligncenter {
+    text-align: center
+}
+.themelamp_slider .owl-buttons .owl-prev {
+    background: #ca538f none repeat scroll 0 0 !important;
+    -webkit-border-radius: 3px 3px 3px 3px !important;
+	border-radius: 3px 3px 3px 3px !important;
+    color: #fff;
+    font-size: 25px;
+    left: 0;
+    margin: 0 !important;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    padding: 12px 14px !important;
+    position: absolute;
+    top: 35%;
+}
+.themelamp_slider .owl-buttons .owl-next {
+    background: #ca538f none repeat scroll 0 0 !important;
+    -webkit-border-radius: 3px 3px 3px 3px !important;
+	border-radius: 3px 3px 3px 3px !important;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 !important;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    padding: 12px 14px !important;
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+.owl-carousel .item img {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.products_gallery_carousel .owl-item {
+    margin-right: 5px
+}
+.featured_area_title {
+    text-align: center
+}
+.featured_area_title h1 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.featured_area {
+    margin: 40px 0;
+    padding: 10px;
+}
+.feature_arg {
+    background: #fff none repeat scroll 0 0;
+}
+.featured_area .item {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin: 5px;
+    padding: 0 10px;
+}
+.featured_post_content {
+    padding: 0 15px;
+    text-align: center;
+}
+.featured_post_content h3 {
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    text-align: center;
+}
+.featured_post_content h3 a {
+    color: #444;
+    display: block;
+    font: 16px/28px Roboto Condensed, Arial, sans-serif;
+    padding: 10px 0;
+}
+.featured_post_content h4 {
+    color: #aaa;
+    display: block;
+    font: 14px/10px Roboto Condensed, Arial, sans-serif;
+    padding: 10px 0;
+}
+#featured_slider .add_cart_featured {
+    display: block;
+    font: 18px/10px roboto condensed, arial;
+    left: -400px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 100px 20px;
+    text-align: center;
+}
+#featured_slider .owl-item:hover h4.add_cart_featured {
+    left: 0px;
+    -webkit-transition: all 0.4s;
+            transition: all 0.4s;
+    display: block
+}
+h4.add_cart_featured a {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	color: #333;
+	outline: 1px solid #ddd;
+	outline-offset: 2px;
+	padding: 5px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    background: #ca538f none repeat scroll 0 0;
+    -webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px;
+    padding: 8px 10px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#featured_slider .item img {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.carousel_content {
+  background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+  height: 50%;
+  left: 30%;
+  margin: 0 auto;
+  outline: 3px solid rgba(255, 255, 255, 0.3);
+  outline-offset: 3px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 650px;
+}
+
+.owl-carousel .carousel_content h1 {
+	display: inline-block;
+	font-family: open sans;
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 2;
+	padding: 10px 35px;
+	text-transform: uppercase;
+}
+.carousel_content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.sticky  {}
+.gallery-caption {}
+.bypostauthor  {}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}

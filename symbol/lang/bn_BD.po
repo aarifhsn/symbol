@@ -1,0 +1,611 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: symbol\n"
+"POT-Creation-Date: 2015-08-24 23:40+0600\n"
+"PO-Revision-Date: 2015-08-24 23:41+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "404, ERROR"
+msgstr "৪০৪, ত্রুটি"
+
+#: 404.php:24
+msgid ""
+"Sorry, but the page you are trying to reach is unavailable or does not exist."
+msgstr "দু:খিত, আপনি যে পেজ ই যেতে চাচ্ছেন, সেটি নেই ।  "
+
+#: archive.php:28
+msgid "Category"
+msgstr "শ্রেণী"
+
+#: archive.php:38
+msgid "Tag"
+msgstr "ট্যাগ"
+
+#: archive.php:47 archive.php:55 archive.php:63
+msgid "Archive For"
+msgstr ""
+
+#: archive.php:72
+msgid "Search results"
+msgstr "অনুসন্ধান"
+
+#: archive.php:76
+msgid "Author Archive"
+msgstr "লেখক আর্কাইভ"
+
+#: archive.php:80
+msgid "Blog Archive"
+msgstr "ব্লগ আর্কাইভ"
+
+#: archive.php:91 search.php:29
+msgid "Sorry, content not found"
+msgstr "দু:খিত,  ফাইল খুঁজে পাওয়া যায়নি"
+
+#: comments.php:7
+msgid "You cannot access this page directly."
+msgstr "আপনি এই পেজ এ সরাসরি প্রবেশ করতে পারবেন না। "
+
+#: comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr "এই পোস্ট টি পাসওর্য়াড দেয়া। মন্তব্য দেখতে পাসওর্য়াড চাপুন।"
+
+#: comments.php:28
+msgid "No Comments"
+msgstr "কোন মন্তব্য নেই"
+
+#: comments.php:28
+msgid "One Comment"
+msgstr "এইটি মন্তব্য"
+
+#: comments.php:28
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:38
+msgid "&larr; Older Comments"
+msgstr "আগের কমেন্ট্স"
+
+#: comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr "নতুন কমেন্ট্স"
+
+#: custom-loop.php:39 post-loop.php:43
+msgid ", "
+msgstr ""
+
+#: custom-loop.php:43 post-loop.php:47 single_page_loop.php:43
+#, php-format
+msgid "<i class=\"fa fa-tag\"></i>%1$s"
+msgstr ""
+
+#: header.php:78
+msgid "Login / Registration"
+msgstr "প্রবেশ / রেজিষ্ট্রেশন"
+
+#: header.php:86
+msgid "My Account"
+msgstr "আমার একাউন্ট"
+
+#: header.php:119
+msgid "Navigation"
+msgstr "মেনু"
+
+#: inc/comments_function.php:26
+msgid "Pingback:"
+msgstr ""
+
+#: inc/comments_function.php:44
+msgid "AUTHOR"
+msgstr "লেখক"
+
+#: inc/comments_function.php:62
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comments_function.php:82
+msgid "Allowed Tags"
+msgstr ""
+
+#: inc/comments_function.php:104
+msgid "Name"
+msgstr "নাম"
+
+#: inc/comments_function.php:104
+msgid " (required)"
+msgstr "প্রয়োজন"
+
+#: inc/comments_function.php:108
+msgid "Email"
+msgstr "ইমেইল"
+
+#: inc/comments_function.php:108
+msgid " (required) (will not be published)"
+msgstr "(প্রয়োজন ) (প্রকাশ করা হবে না)"
+
+#: inc/comments_function.php:112
+msgid "Website"
+msgstr "ওয়েবসাইট"
+
+#: inc/init.php:35
+msgid "Left Sidebar"
+msgstr "বাম সাইডবার"
+
+#: inc/init.php:44
+msgid "Footer Sidebar"
+msgstr "ফোটার সাইডবার"
+
+#: inc/init.php:113
+msgid "Main Menu"
+msgstr "প্রধান মেনু"
+
+#: inc/init.php:116
+msgid "Top Menu"
+msgstr "উপরের মেনু"
+
+#: inc/plugins/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "প্রয়োজনীয় প্লাগিন ইন্সটল করুন"
+
+#: inc/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "প্লাগিন ইন্সটল করুন"
+
+#: inc/plugins/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:399
+#: inc/plugins/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "সকল ধরনের ইনস্টলেশন সম্পন্ন হয়েছে."
+
+#: inc/plugins/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/settings_panel.php:11
+msgid "Header"
+msgstr "হেডার"
+
+#: inc/settings_panel.php:23
+msgid "Logo - Title text will be hidden"
+msgstr "লগো- টাইটেল টেক্সট মুছে যাবে"
+
+#: inc/settings_panel.php:37 inc/settings_panel.php:221
+msgid "Text Color"
+msgstr "টেক্সট কালার"
+
+#: inc/settings_panel.php:50
+msgid "Logo and Top menu Color"
+msgstr "লগো এবং উপরের মেনুর কালার পরিবর্তন"
+
+#: inc/settings_panel.php:63
+msgid "Main Menu color"
+msgstr "প্রধান মেনুর কালার"
+
+#: inc/settings_panel.php:77
+msgid ""
+"Header Background color <h5 style=\"margin: 0\">if header background image "
+"is hidden.</h5>"
+msgstr "হেডার ব্যাকগ্রাউন্ড"
+
+#: inc/settings_panel.php:87
+msgid "Color Scheme"
+msgstr "কালার পরিবর্তন"
+
+#: inc/settings_panel.php:99
+msgid "Theme Color"
+msgstr "থিমের কালার"
+
+#: inc/settings_panel.php:112
+msgid "Background Color"
+msgstr "ব্যাকগ্রাউন্ড কালার"
+
+#: inc/settings_panel.php:121
+msgid "Typography"
+msgstr "টাইপোগ্রাফি"
+
+#: inc/settings_panel.php:130
+msgid "body font size (px)"
+msgstr "বডির ফন্ট সাইজ"
+
+#: inc/settings_panel.php:139
+msgid "Main menufont size (px)"
+msgstr "প্রধান মেনুর ফন্ট সাইজ"
+
+#: inc/settings_panel.php:148
+msgid "top menu font size (px)"
+msgstr "উপরের মেনুর ফন্ট সাইজ"
+
+#: inc/settings_panel.php:155
+msgid "Sidebar"
+msgstr "সাইডবার"
+
+#: inc/settings_panel.php:167
+msgid "Show/Hide Left sidebar"
+msgstr "দেখা / হাইড লেফ্ট সাইডবার"
+
+#: inc/settings_panel.php:180
+msgid "Background color"
+msgstr "ব্যাকগ্রাউন্ড কালার"
+
+#: inc/settings_panel.php:193
+msgid "Title Color"
+msgstr "টাইটেল কালার"
+
+#: inc/settings_panel.php:207
+msgid "Link Color"
+msgstr "লিংক কালার"
+
+#: inc/settings_panel.php:230
+msgid "Footer"
+msgstr "ফোটার"
+
+#: inc/settings_panel.php:240
+msgid "Show Shop Description"
+msgstr "সপ বর্ননা দেখা / মুছে ফেলা"
+
+#: inc/settings_panel.php:252
+msgid "Shop Title"
+msgstr "সপ টাইটেল"
+
+#: inc/settings_panel.php:266
+msgid "Shop Description"
+msgstr "সপ বর্ননা"
+
+#: inc/settings_panel.php:282
+msgid "Text color"
+msgstr "টেক্সট কালার"
+
+#: inc/settings_panel.php:298
+msgid "Heading color"
+msgstr "হেডিং কালার"
+
+#: inc/settings_panel.php:313
+msgid "Link color"
+msgstr "লিংক কালার"
+
+#: inc/settings_panel.php:326
+msgid "Copyright Text"
+msgstr "কপিরাইট শিরোনাম"
+
+#: inc/settings_panel.php:336
+msgid "Home template"
+msgstr "হোম টেমপ্লেট"
+
+#: inc/settings_panel.php:348
+msgid "Slider Text Color"
+msgstr "স্লাইডার টেক্সট কালার"
+
+#: inc/settings_panel.php:363
+msgid "Posts Per Page"
+msgstr "প্রতি পেইজে পোস্ট এর সংখ্যা"
+
+#: inc/settings_panel.php:375
+msgid "Posts Background Color"
+msgstr "পোস্ট এর ব্যাকগ্রাইউন্ড কালার"
+
+#: inc/settings_panel.php:388
+msgid "Show Contact info Area"
+msgstr "কন্টাক্ট ইনফো এরিয়ার দেখা/ গোপন করা"
+
+#: inc/settings_panel.php:399
+msgid "Contact info background image"
+msgstr "কন্টাক্ট ইনফো ব্যাকগ্রাউন্ড ইমেজ আপলোড"
+
+#: inc/settings_panel.php:411
+msgid "Shop Title or your title"
+msgstr "সপ টাইটেল"
+
+#: inc/settings_panel.php:420
+msgid "Shop Address 1 /your detail 1"
+msgstr "সপ ডিটেইল ১"
+
+#: inc/settings_panel.php:429
+msgid "Shop address 2 / your detail 2"
+msgstr "সপ ডিটেইল ২"
+
+#: inc/settings_panel.php:438
+msgid "Shop address 3 / your detail 3"
+msgstr "সপ ডিটেইল  ৩"
+
+#: inc/settings_panel.php:447
+msgid "Your Mailchimp Subscription Link"
+msgstr "মেইলচিম্প সাব্সক্রিপশন লিংক"
+
+#: inc/settings_panel.php:455
+msgid "Social Follow link"
+msgstr "সামাজিক মাধ্যম এর লিংক"
+
+#: inc/settings_panel.php:465
+msgid "Show Social Icons"
+msgstr "সামাজিক মাধ্যমের অংশ দেখা/ গোপন করা"
+
+#: inc/settings_panel.php:475
+msgid "Facebook Link"
+msgstr "ফেসবুক লিংক"
+
+#: inc/settings_panel.php:484
+msgid "Twitter Link"
+msgstr "টুইটার লিংক"
+
+#: inc/settings_panel.php:493
+msgid "Pinterest Link"
+msgstr "পিনটারেস্ট লিংক"
+
+#: inc/settings_panel.php:502
+msgid "Linkedin Link"
+msgstr "লিংকডইন লিংক"
+
+#: inc/settings_panel.php:511
+msgid "Dribbble Link"
+msgstr "ড্রিবল লিংক"
+
+#: inc/settings_panel.php:521
+msgid "Woo Settings"
+msgstr "ও-কমার্স সেটিংস"
+
+#: inc/settings_panel.php:534
+msgid "Enable WooCommerce Top Menu"
+msgstr "ও-কমার্স টপ মেনু দেখা/ গোপন করা"
+
+#: inc/settings_panel.php:545
+msgid "Change Newest items Title"
+msgstr "সাম্প্রতিক প্রোডাক্ট টাইটেল"
+
+#: inc/settings_panel.php:556
+msgid "Posts Per page"
+msgstr "প্রতি পেইজে পোস্ট এর সংখ্যা"
+
+#: inc/settings_panel.php:567
+msgid "Change Featured Posts Title"
+msgstr "ফিচারড পোস্ট টাইটেল"
+
+#: inc/woo_snippets.php:14
+msgid "Already in cart - Add Again?"
+msgstr "আগেই কার্টে যুক্ত করেছেন- আবার করবেন ?"
+
+#: inc/woo_snippets.php:18 inc/woo_snippets.php:38
+msgid "Add to cart"
+msgstr "কার্টে যুক্ত করুন"
+
+#: inc/woo_snippets.php:34
+msgid "Already in cart"
+msgstr "আগেই কার্টে যুক্ত করেছেন।"
+
+#: page.php:44 page.php:67 single_page_loop.php:69 template-fullwidth.php:42
+msgid "404 Error&#58; Not Found"
+msgstr "৪০৪, ত্রুটি"
+
+#: pagenav.php:18
+msgid "<span class=\"alignleft\">&larr; Older posts</span>"
+msgstr ""
+
+#: pagenav.php:19
+msgid "<span class=\"alignright\">Newer posts &rarr;</span>"
+msgstr ""
+
+#: post-loop.php:67
+msgid "No posts were found."
+msgstr "দু:খিত,  ফাইল খুঁজে পাওয়া যায়নি"
+
+#: woocommerce/loop/sale-flash.php:32
+#: woocommerce/single-product/sale-flash.php:32
+msgid "Sale!"
+msgstr "ছাড়"

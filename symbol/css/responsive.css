@@ -1,0 +1,125 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.mainmenu {display: block;}
+.small_device_menu, .small_menu_area {display: none;}
+.footer_menu ul li {width: 24%;}
+
+	
+
+}
+
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+	
+.mainmenu {display: none;}
+.small_device_menu {display: block;}
+.header .login_section ul li a {
+  font-size: 12px;
+}
+.header .login_section ul li a, .header .login_section a {
+  margin-left: 15px;
+}
+.header .logo h4 {
+  padding: 25px 10px;
+}
+.carousel_content {
+  top: 25%;
+}
+.owl-carousel .carousel_content h1 {
+  font-size: 30px;
+  line-height: 1;
+  padding: 0;
+}
+.nd-wrap {
+  display: block;
+}
+.footer_top .single_footer {
+  width: 95%;
+}
+.header .logo {
+  margin-left: 5px;
+}
+.header .logo h4 {
+  padding: 0 10px;
+}
+.header .login_section {
+  float: none;
+}
+.widget-area {
+  text-align: center;
+  display: none;
+}
+.signup_form .subscription-form #subscriber-email {
+  margin-bottom: 5px;
+  width: 90%;
+}
+.header .logo {
+  margin-top: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+.small_device_menu {
+  padding: 0 10px;
+}
+
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+.mainmenu {display: none;}
+.small_device_menu {display: block;}
+.header .login_section ul li a {
+  font-size: 12px;
+}
+.header .login_section ul li a, .header .login_section a {
+  margin-left: 15px;
+}
+.header .logo h4 {
+  padding: 25px 10px;
+}
+.signup_form .subscription-form #subscriber-email {
+  margin-bottom: 5px;
+  width: 90%;
+}
+.footer_top .single_footer {
+  width: 49%;
+}
+.carousel_content {
+  top: 21%;
+}
+.owl-carousel .carousel_content h1 {
+  font-size: 25px;
+  line-height: 1;
+  padding: 0 30px;
+}
+.header .logo {
+  margin-left: 120px;
+}
+.header .login_section {
+  float: none;
+}
+.nd-wrap {
+  display: block;
+}
+.widget-area {
+  text-align: center;
+}
+
+
+}
+
